@@ -1,0 +1,12 @@
+.body { 
+    font-family:"Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.container{
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}

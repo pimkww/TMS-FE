@@ -1,0 +1,57 @@
+.main-info:after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    height: 740px;
+    width: 100%;
+    display: block;
+    background: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 42.39px;
+}
+
+.main-info__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.main-info__subtitle{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.shop-button{font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #212A2F;
+    border: none;
+    padding: 15px 35px;
+}
+
+.main-info{
+    display: flex;
+    align-items: flex-end;
+    height: 740px;
+    padding: 0 0 65px 0;
+}
+
+.shop-for button:not(:last-child){
+    margin-right: 25px;
+}
