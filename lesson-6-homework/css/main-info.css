@@ -3,13 +3,13 @@
     position: absolute;
     z-index: -1;
     bottom: 0;
-    height: 740px;
+    height: 100%;
     width: 100%;
     display: block;
     background: url('../images/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    top: 42.39px;
+    top: 60PX;
 }
 
 .main-info__title{

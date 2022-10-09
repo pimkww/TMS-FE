@@ -1,15 +1,20 @@
+.header{
+    
+}
+
 .header-wrap{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #FFFFFF;
+    height: 60px;
 }
 
 .navigation-list{
     display: flex;
 }
 
-.user-wrap{
+.user-actions-wrap{
     display: flex;
 }
 
@@ -37,13 +42,15 @@
     border: none;
 }
 
-.icon-button img{
+.icon-button{
     margin-left: 20px;
+    height: 25px;
+    width: 22px;
 }
 
 .icon-button img{
-   height: 25px;
-   width: 22px;
+   height: 100%;
+   width: 100%;
 }
 
 .navigation-list__item a{
