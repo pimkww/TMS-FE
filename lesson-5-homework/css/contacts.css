@@ -22,6 +22,16 @@ margin-bottom: 40px;
 }
 
 
+
+.contacts__title::after{
+    content: "";
+    border: 1px solid #EC7979;
+    margin: 30px auto 0;
+    display: block;
+    width: 170px;
+  }
+
+
 .contacts__subtitle{
     font-family: 'Raleway';
 font-weight: 400;
@@ -61,19 +71,7 @@ padding-bottom: 40px;
     
 }
 
-.contscts-sending{
-font-weight: 600;
-font-size: 18px;
-line-height: 25px;
-display: block;
-text-align: center;
-text-transform: capitalize;
-color: #FFFFFF;
-background: #EC7979;
-border: none;
-width: 200px;
-height: 50px;
-}
+.contscts-sending{font-weight: 600;font-size: 18px;line-height: 25px;display: block;text-align: center;text-transform: capitalize;color: #FFFFFF;background: #EC7979;border: none;width: 200px;height: 50px;}
 
 .button{
     display: flex;

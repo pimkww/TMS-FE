@@ -1,33 +1,49 @@
-.customers-wrap {
+.customers {
+  padding: 50px 0 60px 0;
   display: flex;
 }
 
-.customers {
-  padding: 0 0 60px 0;
+.what-about{
+margin-bottom: 80px;
 }
 
 .what-about__title {
+  font-family: 'Raleway';
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
+  display: block;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  margin: 35px 0 40px;
+}
+
+.what-about__title::after{
+  content: "";
+  border: 1px solid #EC7979;
+  margin: 30px auto 0;
+  display: block;
+  width: 170px;
 }
 
 .what-about__subtitle {
-  position: absolute;
   font-family: "Raleway";
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
+  display: block;
   text-align: center;
   color: #86878b;
 }
 
-.manager__comments {
+.answers{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.manager-comm__text {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -35,20 +51,59 @@
   color: #86878b;
 }
 
-.manager__name {
+.manager-comm{background-color:  #E2E2E2;border-radius: 10px;padding: 30px 40px;margin-bottom: 60px;}
+
+.manager-about-text__name {
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
-  display: flex;
+  display: block;
   align-items: center;
   text-transform: capitalize;
   color: #000000;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
-.manager__profession {
+.manager-about-text__profession {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   align-items: center;
   color: #000000;
+}
+
+.manager-about{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.manager-about-text{
+  width: 70%;
+}
+
+.portrait__img{
+  width: 70px;
+  height: 70px;
+}
+
+.manager{display: flex;
+  width: 30%;
+  flex-direction: column;
+}
+
+.manager-about__potrait{
+  width: 20%;
+}
+
+
+.manager-comm::after{
+  content: "trianglehere";
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 20px 19.5px 0 19.5px;
+  border-color: #e2e2ef transparent transparent transparent;
+  border-style: solid;
 }

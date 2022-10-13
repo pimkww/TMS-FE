@@ -9,7 +9,7 @@
     background: url('../images/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    top: 60PX;
+    /* top: 60PX; */
 }
 
 .main-info__title{
