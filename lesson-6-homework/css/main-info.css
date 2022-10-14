@@ -9,7 +9,6 @@
     background: url('../images/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* top: 60PX; */
 }
 
 .main-info__title{
@@ -50,6 +49,7 @@
     align-items: flex-end;
     height: 740px;
     padding: 0 0 65px 0;
+    position: relative;
 }
 
 .shop-for button:not(:last-child){
