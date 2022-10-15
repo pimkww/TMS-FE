@@ -32,7 +32,8 @@
     margin-bottom: 20px;
 }
 
-.shop-button{font-family: 'Roboto';
+.shop-button{
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -41,7 +42,9 @@
     text-transform: uppercase;
     color: #212A2F;
     border: none;
-    padding: 15px 35px;
+    padding: 15px 45px;
+    background: #FFFFFF;
+    border-radius: 2px;
 }
 
 .main-info{

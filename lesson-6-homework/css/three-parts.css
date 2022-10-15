@@ -1,0 +1,99 @@
+.three-parts{
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+
+.three-parts-intro{
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.three-parts-intro__title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.5px;
+color: #212A2F;
+margin-bottom: 50px;
+}
+
+.three-parts-intro__subtitle{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.5px;
+color: #212A2F;
+margin-bottom: 30px;
+}
+
+.three-parts-intro__button .shop-button{
+    background: #212A2F;
+    border: 2px solid #212A2F;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+
+.three-parts-intro__button .shop-for{
+text-align: center;
+}
+
+.three-parts-varianrts-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-parts-varianrts-item{
+    width: 30%;
+}
+
+.three-parts-varianrts__title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+letter-spacing: 0.5px;
+color: #212A2F;
+margin-bottom: 25px;
+}
+
+.three-parts-varianrts-item__image{
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 0px;
+}
+
+.three-parts-varianrts-item__picture{
+    margin-bottom: 20px;
+}
+
+.three-parts-varianrts-item__title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 29px;
+letter-spacing: 0.5px;
+color: #212A2F;
+margin-bottom: 10px;
+}
+
+.three-parts-varianrts-item__subtitle{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+color: #212A2F;
+}
