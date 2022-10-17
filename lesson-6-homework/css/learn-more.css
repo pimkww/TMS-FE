@@ -1,10 +1,10 @@
-.learn-more{
-    display: flex;
-    padding-top: 45px;
-    padding-bottom: 120px;
+.learn-more {
+  display: flex;
+  padding-top: 45px;
+  padding-bottom: 120px;
 }
 
-.learn-more::before{
+/*.learn-more::before{
     background: url("../images/logs.png");
     content: '';
     position: absolute;
@@ -14,41 +14,45 @@
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
+}*/
+
+/*.learn-more__image {
+  height: 545px;
+  position: absolute;
+}*/
+
+.learn-more__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+  margin-bottom: 20px;
 }
 
-
-.learn-more__title{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.5px;
-color: #212A2F;
-margin-bottom: 20px;
+.learn-more__subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-bottom: 25px;
+  color: #212a2f;
 }
 
-.learn-more__subtitle{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-letter-spacing: 0.5px;
-margin-bottom: 25px;
-color: #212A2F;
+.learn-more__button .shop-button {
+  background: #212a2f;
+  border: 2px solid #212a2f;
+  border-radius: 2px;
+  color: #ffffff;
+  padding: 15px 155px;
 }
 
-.learn-more__button .shop-button{
-    background: #212A2F;
-    border: 2px solid #212A2F;
-    border-radius: 2px;
-    color: #FFFFFF;
-    padding: 15px 155px;
-}
-
-.learn-more__button .shop-for{
-    text-align: center;
+.learn-more__button .shop-for {
+  text-align: center;
 }
