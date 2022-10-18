@@ -44,10 +44,10 @@ margin-bottom: 80px;
 }
 
 .contacts-input-field__about-user input{
-border: none;
-border-bottom: 1px solid #86878B ;
-padding-top: 50px;
-padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #86878B;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 
 .contacts-input-field__about-user{
@@ -67,11 +67,20 @@ margin-right: 20px;
     padding-top: 50px;
 padding-bottom: 40px;
     border-bottom: 1px solid #86878B;
-    width: 100%;
-    
+    width: 100%;  
 }
 
-.contscts-sending{font-weight: 600;font-size: 18px;line-height: 25px;display: block;text-align: center;text-transform: capitalize;color: #FFFFFF;background: #EC7979;border: none;width: 200px;height: 50px;}
+.contscts-sending{font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #EC7979;
+    border: none;
+    width: 200px;
+    height: 50px;}
 
 .button{
     display: flex;

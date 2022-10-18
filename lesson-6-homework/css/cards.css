@@ -1,28 +1,28 @@
-.three-parts{
+.cards{
     display: flex;
     width: 100%;
     padding-top: 50px;
     padding-bottom: 130px;
 }
 
-.three-parts-intro{
+.cards-intro{
     margin: 0 auto;
     margin-bottom: 120px;
 }
 
-.three-parts-intro__title{
+.cards-intro__title{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.5px;
-color: #212A2F;
-margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #212a2f;
+    margin-bottom: 20px;
 }
 
-.three-parts-intro__subtitle{
+.cards-intro__subtitle{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -34,28 +34,42 @@ color: #212A2F;
 margin-bottom: 30px;
 }
 
-.three-parts-intro__button .shop-button{
+.cards .main-buttons__button{
     background: #212A2F;
     border: 2px solid #212A2F;
     border-radius: 2px;
     color: #FFFFFF;
+    text-align: center; 
 }
 
-.three-parts-intro__button .shop-for{
+
+.cards .main-buttons{
+     text-align: center; 
+}
+
+.large-button{
+    padding: 15px 155px;
+}
+
+.medium-button{
+    padding: 15px 20px;
+}
+
+.cards-intro__button .main-buttons{
 text-align: center;
 }
 
-.three-parts-varianrts-items {
+.cards-varianrts-items {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.three-parts-varianrts-item{
+.cards-varianrts-item{
     width: 30%;
 }
 
-.three-parts-varianrts__title{
+.cards-varianrts__title{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -66,29 +80,29 @@ color: #212A2F;
 margin-bottom: 25px;
 }
 
-.three-parts-varianrts-item__image{
+.cards-varianrts-item__image{
     height: 100%;
     width: 100%;
     display: block;
     border-radius: 0px;
 }
 
-.three-parts-varianrts-item__picture{
+.cards-varianrts-item__picture{
     margin-bottom: 20px;
 }
 
-.three-parts-varianrts-item__title{
+.cards-varianrts-item-text__title{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 29px;
-letter-spacing: 0.5px;
-color: #212A2F;
-margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+    margin-bottom: 10px;
 }
 
-.three-parts-varianrts-item__subtitle{
+.cards-varianrts-item-text__subtitle{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -96,4 +110,8 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.5px;
 color: #212A2F;
+}
+
+.cards-varianrts-item-text{
+    margin:auto 15px;
 }

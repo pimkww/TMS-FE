@@ -32,7 +32,7 @@
     margin-bottom: 20px;
 }
 
-.shop-button{
+.main-buttons__button{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
@@ -55,6 +55,6 @@
     position: relative;
 }
 
-.shop-for button:not(:last-child){
+.main-buttons button:not(:last-child){
     margin-right: 25px;
 }
