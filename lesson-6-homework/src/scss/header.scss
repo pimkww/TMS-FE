@@ -1,0 +1,64 @@
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    height: 60px;
+}
+
+.navigation-list{
+    display: flex;
+}
+
+.user-actions-wrap{
+    display: flex;
+}
+
+.communication{
+    display: flex;
+}
+
+.communication-button{
+    font-family: 'Roboto';
+    background: none;
+    border: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #212A2F;
+}
+
+.communication-button:not(:last-child){
+    margin-right: 40px;
+}
+
+.icon-button{
+    background: none;
+    border: none;
+}
+
+.icon-button{
+    margin-left: 20px;
+    height: 25px;
+    width: 22px;
+}
+
+.icon-button img{
+   height: 100%;
+   width: 100%;
+}
+
+.navigation-list__item a{
+    font-family: 'Roboto';
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+font-size: 12px;
+line-height: 21px;
+text-transform: uppercase;
+}
+
+.navigation-list__item:not(:last-child){
+    margin-right: 36px;
+}
