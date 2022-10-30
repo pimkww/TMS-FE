@@ -9,3 +9,5 @@ menuBtn.addEventListener("click", () => {
     menuOpen = false;
   }
 });
+
+window.addEventListener("load" )
