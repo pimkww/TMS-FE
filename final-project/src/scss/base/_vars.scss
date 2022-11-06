@@ -5,13 +5,6 @@
 /* Typography */
 /* Breakpoints */
 /* Paths */
-/* font-size*/
-$h1-fs:64px;
-$h2-fs:36px;
-$h3-fs:30px;
-$h4-fs:24px;
-$h5-fs:21px;
-$h6-fs:13px;
 /* font-weight*/
 $h1-fw:900;
 $h2-fw:700;
@@ -19,6 +12,17 @@ $h3-fw:700;
 $h4-fw:900;
 $h5-fw:400;
 $h6-fw:700;
+/* font-size*/
+$h1-fs:64px;
+$h2-fs:36px;
+$h3-fs:30px;
+$h4-fs:24px;
+$h5-fs:21px;
+$h6-fs:13px;
+$fs-media1024:12px;
+$fs-m1024t:48px;
+$fs-m1024s:18px;
+$fs-m320s:14px;
 /*line-height*/
 $h1-lh:75px;
 $h2-lh:42px;
@@ -26,12 +30,18 @@ $h3-lh:35px;
 $h4-lh:28px;
 $h5-lh:21px;
 $h6-lh:15px;
+$lh-media1024:13px;
+$lh-m1024t:56px;
+$lh-m320s:16px;
 /* Grid setup */
 /* Colour palette */
 
 $black:#000000;
+$notgrey:#2D3033;
+$lightgrey:#6C7279;
 $rednormal:#FF4343;
 $red-hover:#E71414;
-$white:#000000;
+$white:#FFFFFF;
 $grey:#BABBC5;
 $underline:#E71414;
+$soclinks: #C6CBCD;

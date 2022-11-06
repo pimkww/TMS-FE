@@ -3,26 +3,21 @@
 */
 
 @font-face {
-<<<<<<< HEAD
-  font-family: 'Raleway';
-  src: url("//src/fonts/Raleway-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-size: 400;
-=======
-  font-family: "Raleway";
-  src: url("../fonts/Raleway-Regular.ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Raleway";
-  src: url("../fonts/Raleway-Bold.ttf");
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Raleway";
-  src: url("../fonts/Raleway-Black.ttf");
-  font-weight: 900;
->>>>>>> ba9d32e5ae43170c504114ad053c55078180391a
-}
+    font-family: 'Raleway';
+    src: url("//src/fonts/Raleway-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-size: 400;
+  }
+  
+  @font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Bold.ttf");
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Black.ttf");
+    font-weight: 900;
+  }
+  

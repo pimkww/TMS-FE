@@ -1,0 +1,53 @@
+.cards{
+    .cards-wrap{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &-item{
+        width: calc(90% / 4);
+        &__image{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+       &__name{
+        font-weight: $h2-fw;
+        font-size: $h4-fs;
+        line-height: $h4-lh;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        color: $notgrey;
+        margin-bottom: 5px;
+       } 
+       &__profession{
+        font-weight: $h5-fw;
+        font-size: $fs-m1024s;
+        line-height: $h5-lh;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: $rednormal;
+        margin-bottom: 20px;
+       }
+       &__description{
+        font-weight: $h5-fw;
+        font-size:$fs-m1024s;
+        line-height:$h5-lh;
+        display: flex;
+        align-items: center;
+        color: $lightgrey;
+        margin-bottom: 40px;
+       }
+    }
+    .social-links{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        cursor: pointer;
+        a{
+            border: 1px solid $soclinks;
+            gap: 7px;
+        }
+    }
+}
