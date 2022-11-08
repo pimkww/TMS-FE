@@ -1,3 +1,99 @@
 .footer{
-    display: none;
+    display: flex;
+    flex-direction: column;
+
+    .blocks{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        display: flex;
+        justify-content: space-evenly; 
+        background: #353C65;
+        @media(max-width: 600px){
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    }
+
+.block{
+    width: 20%;
+    @media(max-width: 600px){
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    &__title{
+        font-weight:$h6-fw;
+        font-size: $fs-m1024s;
+        line-height: $h5-lh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;       
+        color: $white; 
+        margin-bottom: 30px;
+        @media(max-width: 600px){
+            justify-content: center;
+            align-items: center;
+            display: flex;           
+        } 
+        @media(max-width: 320px){
+            font-size:$fs-m320s;
+            line-height: $lh-m320s;             
+        }               
+    }
+    &__decription{
+        font-weight: $h5-fw;
+        font-size:$fs-m1024s;
+        line-height:$h5-lh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: capitalize;      
+        color: $white;
+        @media(max-width: 600px){
+            justify-content: center;
+            align-items: center;
+            display: flex;          
+        } 
+        @media(max-width: 320px){
+            font-size:$fs-m320s;
+            line-height: $lh-m320s;             
+        }         
+    }
+    .social-links{
+        justify-content: center;
+        a:not(:last-child) {
+            margin-right: 8%; 
+        }
+    }
+    
+}
+
+.year{
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2C3154;
+    font-weight: $h5-fw;
+    font-size: $fs-m1024s;
+    line-height:$h5-lh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;   
+    color: #808080;
+    @media(max-width: 650px){
+        flex-direction: column;
+    }  
+    &-name{
+        color: $white;
+        margin-left: 5px; 
+
+    } 
+
+}
 }

@@ -1,3 +1,29 @@
 .download{
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 110px;
+    &__title{
+        font-weight: 400;
+        font-size: $h3-fs;
+        line-height: $h3-lh;
+        display: flex;
+        align-items: center;
+        text-align: center;        
+        color: $black;  
+        margin-bottom: 15px;             
+    }
+    &__text{
+        justify-content: center;
+    align-items: center;
+        font-weight: $h3-fw;
+        font-size: $fs-m1024s;
+        line-height: $h5-lh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;        
+        color: $black;
+        margin-bottom: 50px;       
+    }
 }

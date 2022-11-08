@@ -1,3 +1,4 @@
+/*
 $(document).ready(function(){
     $('.slider').slick({
         arrows:false,
@@ -10,8 +11,8 @@ $(document).ready(function(){
         infinite: true,
         initialSlide: 1,
         draggable: false,/*свайп*/
-        swipe: true,
+       /* swipe: true,
         variableWidth: false,/*адапттивность*/
 
-    });
-});
+   /* });
+});*/
