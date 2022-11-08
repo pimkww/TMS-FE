@@ -23,51 +23,69 @@
     justify-content: space-between;
     align-items: center;
     height: 100px;
-  }
+}
 
   .header{
     position: relative;
-    border-bottom: 1px solid #BABBC5;
-     /*::after{
-    content: '';
-    position: absolute;
-    border-bottom: 1px solid #BABBC5;
-    bottom: 0;
-    z-index: -4;
-  }*/
-  .logo{
-    display: block;
-    max-width: 100%;
-    @media (max-width: 1024px){
-      max-width: 80%;
+    border-bottom: 1px solid $grey;
+    width: 100%;
+    .logo{
+      display: block;
+      
+      @media (max-width: 1024px){
+        max-width: 100%;
+      }
+      @media (max-width: 320px){
+        max-width: 100%;
+      }
     }
-    @media (max-width: 320px){
-      max-width: 50%;
-    }
-  }
 }
 .navigation{
   display: flex;
+  width: 80%;
+  justify-content: flex-end;
+  @media (max-width:1024px){
+    width: 90%;
+  }
+  
 }
-  .navigation-list{
+
+.navigation-list{
     display: flex;
-    &__item a{
+    width: calc(100% - (5% * 4));
+    justify-content: space-between;
+    
+    &__item  a{      
       font-weight: $h3-fw;
       font-size: $h6-fs;
       line-height: $h6-lh;
       display: flex;
+      position: relative;
       align-items: center;
       text-align: center;
       text-transform: uppercase;
-      color: $white;
-      margin: 0 35px;
+      color: $white;     
       @media (max-width:1024px){
         font-weight: $h3-fw;
         font-size: $fs-media1024;
         line-height: $lh-media1024;
       }
     }
-  }
+}
+
+
+/*.navigation-list__item a::after {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  content: "";
+  z-index: 10;
+  margin-top: 34px;
+  height: 3px;
+  background-color: #BABBC5;
+  transition: width 0.3s ease-out;
+}*/
 
 
 
@@ -129,7 +147,7 @@
         line-height: $h4-lh;
         display: flex;
         border: none;
-        padding: 2% 5%;
+        padding: 3% 6%;
         align-items: center;
         text-align: center;
         text-transform: uppercase;
@@ -201,7 +219,14 @@
   transform: rotate(-405deg);
 }
 
-/*@media (max-width: 700px) {
+
+
+
+
+
+
+
+@media (max-width: 700px) {
   .navigation-list-button-container {
     display: flex;
   }
@@ -240,4 +265,4 @@
   .navigation-list > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
-}*/ 
+}
