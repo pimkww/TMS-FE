@@ -58,14 +58,19 @@
   display: block;
   position: absolute;
   left: 0;
-  bottom: -3px;
-  height: 2px;
+  height: 3px;
   background-color: $grey;
   content: "";
   transition: width 0.5s;
   }
 
-  /*.navigation-list__item a ::after {
+  .navigation-list:active:after {
+    background: #E71414;
+    content: "";
+    transition: width 0.5s;
+    }
+
+  .navigation-list__item a ::after {
     display: block;
     position: absolute;
     right: 0;
@@ -75,7 +80,7 @@
     background-color: $grey;
     content: "";
     transition: width 0.5s;
-    }*/
+    }
     
     /*.navigation-list__item a :hover::after {
     width: 100%;
@@ -107,7 +112,7 @@
       align-items: center;
       text-align: center;
       text-transform: uppercase;
-      color: $white;     
+      color: $white;    
       @media (max-width:1024px){
         font-weight: $h3-fw;
         font-size: $fs-media1024;
@@ -116,6 +121,17 @@
     }
 }
 
+
+
+.navigation-list__item a:active::after{
+  width: calc(100% + 26px);
+  transform: translateX(-13px);
+  background-color: #E71414;
+}
+
+.navigation-list__item a:active{
+  color: #E71414;
+}
 
 /*.navigation-list__item a::after {
   display: block;
@@ -196,17 +212,18 @@
         text-transform: uppercase;
         color: $white;
         cursor: pointer;
+        :hover{
+          background: #E71414;
+        }
+        :active{
+          background: #FF4343;
+        box-shadow: 4px 4px 30px #FF4343;
+        }
     }
 }
 
 
-.banner-info__button:hover{
-  background: #E71414;
-}
-.banner-info__button:active{
-  background: #FF4343;
-box-shadow: 4px 4px 30px #FF4343;
-}
+
 
 
 
