@@ -198,28 +198,29 @@
           line-height: $lh-m320s;
         }
     }
-    &__button{
-        margin: 0 auto;
-        background: $rednormal;
-        font-weight: $h1-fw;
-        font-size: $h4-fs;
-        line-height: $h4-lh;
-        display: flex;
-        border: none;
-        padding: 3% 6%;
-        align-items: center;
-        text-align: center;
-        text-transform: uppercase;
-        color: $white;
-        cursor: pointer;
-    }
 }
 
-.banner-info__button:hover{
+.button{
+  margin: 0 auto;
+  background: $rednormal;
+  font-weight: $h1-fw;
+  font-size: $h4-fs;
+  line-height: $h4-lh;
+  display: flex;
+  border: none;
+  padding: 3% 6%;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+  cursor: pointer;
+}
+
+.button:hover{
   background: #E71414;
 }
 
-.banner-info__button:active{
+.button:active{
   background: #FF4343;
 box-shadow: 4px 4px 30px #FF4343;
 }
