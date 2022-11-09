@@ -1,5 +1,11 @@
 .cards{
     padding-bottom: 120px;
+    @media(max-width:1024px){
+        padding-bottom: 50px;
+    }
+    @media(max-width:600px){
+        padding-bottom: 20px;
+    }
     .cards-wrap{
         display: flex;
         flex-wrap: wrap;
@@ -95,3 +101,11 @@
         }
        
     }
+
+.cards-item:nth-child(2){
+    .cards-item__profession{
+     @media(max-width:837px) {
+        margin-bottom: 5px; 
+    }
+}
+}

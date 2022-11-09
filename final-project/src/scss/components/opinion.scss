@@ -1,12 +1,22 @@
 .opinion{
     padding-bottom: 120px;
+    @media(max-width:1024px){
+        padding-bottom: 80px;
+    }
     &__item{
         width: 100%;
         display: flex;
         flex-direction: row;
         background: $bgsepar;
+        @media(max-width:1024px){
+            flex-direction: column;
+        }
         &-img{
-            width: 50%;       
+            width: 50%; 
+            @media(max-width:1024px){
+                width: 100%; 
+                margin-bottom: 30px;
+            }      
             img{
                 width: 100%;
                 height: 100%;
@@ -20,6 +30,12 @@
             justify-content: center;
             align-items: center;                
             text-transform: uppercase;
+            @media(max-width:1024px){
+                width: 100%; 
+                justify-content: center;
+                align-items: center; 
+                padding-bottom: 40px;
+            }      
             
             &-description{
                 width: 80%;
@@ -28,14 +44,37 @@
                 font-size:$h2-fs;
                 line-height: 49px;
                 color: $white;  
-                margin-bottom: 10px;
+                margin-bottom: 15px;
+                width: 70%;
+                @media(max-width:1300px){
+                    font-size:$h3-fs; 
+                    line-height: 40px;
+                } 
+                @media(max-width:1024px){
+                    justify-content: center;
+                    align-items: center; 
+                    text-align: center;           
+                }
+                @media(max-width:500px){
+                    font-size: $h4-fs;
+                    line-height: 32px; 
+                    }    
                 }
                 &-author{
                 width: 80%;
                 font-weight: $h3-fw;
                 font-size:$h6-fs;
                 line-height: $h6-lh;
-                color: $white;                            
+                color: $white; 
+                @media(max-width:1024px){
+                    justify-content: center;
+                    align-items: center; 
+                    text-align: center;
+                }  
+                @media(max-width:500px){
+                    font-size: 12px;
+                    line-height: 14px; 
+                    }                             
                 }        
         }
     }

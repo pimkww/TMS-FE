@@ -34,9 +34,9 @@
                 font-weight: $h5-fw;
                 font-size: $fs-m1024s;
                 line-height: $h5-lh;
-                text-transform: uppercase;
                 color: $white;
                 display: flex;
+                text-align: center;
                 @media (max-width: 1024px) {
                     font-size: $fs-m320s;
                     line-height: $lh-m320s;
@@ -63,7 +63,10 @@
     display: grid;
     grid-template-columns: repeat( 4 , 1fr);
     grid-template-rows: repeat( 2 , 1fr);
-    margin-bottom: 120px;
+    padding-bottom: 120px;
+    @media(max-width:1024px){
+        padding-bottom: 50px;
+    }
     @media(max-width: 520px){
         grid-template-columns: repeat( 2 , 1fr);
         grid-template-rows: repeat( 4 , 1fr);        

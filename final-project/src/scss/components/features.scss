@@ -6,6 +6,9 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 35px;
+        @media(max-width:1024px){
+            padding-top: 50px;
+        }
     }
     &-item{
         position: relative;
