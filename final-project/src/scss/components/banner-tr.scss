@@ -65,7 +65,7 @@
   transition: width 0.5s;
   }
 
-  /*.navigation-list__item a :after {
+  /*.navigation-list__item a ::after {
     display: block;
     position: absolute;
     right: 0;
@@ -75,19 +75,21 @@
     background-color: $grey;
     content: "";
     transition: width 0.5s;
-    }
+    }*/
     
-    .navigation-list__item a :hover:after {
+    /*.navigation-list__item a :hover::after {
     width: 100%;
     display: block;
     position: absolute;
     left: 0;
+    z-index: 6;
     bottom: -3px;
     height: 2px;
     background-color: $grey;
     content: "";
     transition: width 0.5s;
     }*/
+
 
 
 
@@ -196,6 +198,16 @@
         cursor: pointer;
     }
 }
+
+
+.banner-info__button:hover{
+  background: #E71414;
+}
+.banner-info__button:active{
+  background: #FF4343;
+box-shadow: 4px 4px 30px #FF4343;
+}
+
 
 
 .navigation-list {
