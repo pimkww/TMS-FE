@@ -212,16 +212,17 @@
         text-transform: uppercase;
         color: $white;
         cursor: pointer;
-        :hover{
-          background: #E71414;
-        }
-        :active{
-          background: #FF4343;
-        box-shadow: 4px 4px 30px #FF4343;
-        }
     }
 }
 
+.banner-info__button:hover{
+  background: #E71414;
+}
+
+.banner-info__button:active{
+  background: #FF4343;
+box-shadow: 4px 4px 30px #FF4343;
+}
 
 
 
