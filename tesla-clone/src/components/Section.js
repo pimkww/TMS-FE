@@ -49,7 +49,9 @@ const Wrap = styled.div`
 
 const ItemText = styled.div`
   padding-top: 10vh;
-
+  p{
+    margin-top: 10px;
+  }
 `
 
 const ButtonGroup = styled.div`
