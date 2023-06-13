@@ -8,7 +8,7 @@
 
 /* html{
     scroll-snap-type: y mandatory;
-} */
+} */ /* подвисает этим способом  */
 
 body{
     width: 100%;
